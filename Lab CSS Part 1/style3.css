@@ -1,0 +1,73 @@
+html{
+    color: white;
+}
+
+header{
+    color: white;
+    background-color: rgb(236, 219, 140);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+nav {
+    color: white;
+    float: left;
+    background-color: rgb(228, 149, 141);
+    width: 15%;
+    height: 410px;
+    text-align: center;
+    margin: 5px auto;
+}
+.divflex {
+    color: white;
+    justify-content: space-between;
+    height: 130px;
+    background-color: rgb(114, 208, 224);
+    display: flex;
+}
+#article1{
+    color: black;
+    background-color: rgb(114, 208, 224);
+    width: 99%;
+    height: 60px;
+    text-align: center;
+}
+footer{
+    color: black;
+    background-color: #FCCBAA;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    clear: both;
+}
+#footer1{
+    color: black;
+    background-color: rgb(202, 175, 140);
+    width: 99%;
+    height: 30px;
+    text-align: center;
+    clear: both;
+    margin-right: 20px;
+}
+.header1{
+    color: black;
+    background-color: rgb(188, 199, 174);
+    width: 99%;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+
+.divflex > section {
+    flex: 1;
+    flex-grow: 1; /* Melebarkan diri ke seluruh ruang yang tersedia */
+}
+
+figure {
+    background-color: rgb(121, 182, 121);
+    padding: 1%;
+    margin: 5px;
+    text-align: center;
+}
